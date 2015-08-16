@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FD98EF515747B2000B73B01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD98EF415747B2000B73B01 /* UIKit.framework */; };
+		2FD98EF715747B2000B73B01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD98EF615747B2000B73B01 /* Foundation.framework */; };
+		2FD98EFD15747B2000B73B01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FD98EFB15747B2000B73B01 /* InfoPlist.strings */; };
+		2FD98EFF15747B2000B73B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD98EFE15747B2000B73B01 /* main.m */; };
+		2FD98F0315747B2000B73B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD98F0215747B2000B73B01 /* AppDelegate.m */; };
+		2FD98F0615747B2000B73B01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD98F0515747B2000B73B01 /* ViewController.m */; };
+		2FD98F0915747B2000B73B01 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD98F0715747B2000B73B01 /* ViewController.xib */; };
+		2FD98F111574803000B73B01 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD98F101574803000B73B01 /* WaveView.m */; };
+		2FD98F13157485A300B73B01 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD98F12157485A300B73B01 /* AVFoundation.framework */; };
+		2FD98F15157485AB00B73B01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD98F14157485AB00B73B01 /* CoreGraphics.framework */; };
+		2FF1D82D19CD17DA002492A3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF1D82C19CD17DA002492A3 /* QuartzCore.framework */; };
+		6413D98F1A775A2D007C5FFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6413D98E1A775A2D007C5FFA /* Images.xcassets */; };
+		95C5B6801B7F83B500EBC89D /* Titanium.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 95C5B67F1B7F83B500EBC89D /* Titanium.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FD98EF015747B2000B73B01 /* VoiceRecorderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceRecorderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD98EF415747B2000B73B01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FD98EF615747B2000B73B01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FD98EFA15747B2000B73B01 /* VoiceRecorderDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceRecorderDemo-Info.plist"; sourceTree = "<group>"; };
+		2FD98EFC15747B2000B73B01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FD98EFE15747B2000B73B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FD98F0015747B2000B73B01 /* VoiceRecorderDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoiceRecorderDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2FD98F0115747B2000B73B01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FD98F0215747B2000B73B01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FD98F0415747B2000B73B01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FD98F0515747B2000B73B01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FD98F0815747B2000B73B01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		2FD98F0F1574803000B73B01 /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		2FD98F101574803000B73B01 /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+		2FD98F12157485A300B73B01 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2FD98F14157485AB00B73B01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FF1D82C19CD17DA002492A3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6413D98E1A775A2D007C5FFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		95C5B67F1B7F83B500EBC89D /* Titanium.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Titanium.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD98EED15747B2000B73B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF1D82D19CD17DA002492A3 /* QuartzCore.framework in Frameworks */,
+				2FD98F15157485AB00B73B01 /* CoreGraphics.framework in Frameworks */,
+				2FD98F13157485A300B73B01 /* AVFoundation.framework in Frameworks */,
+				2FD98EF515747B2000B73B01 /* UIKit.framework in Frameworks */,
+				2FD98EF715747B2000B73B01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD98EE515747B2000B73B01 = {
+			isa = PBXGroup;
+			children = (
+				2FD98F16157493CD00B73B01 /* MP3 */,
+				2FD98F14157485AB00B73B01 /* CoreGraphics.framework */,
+				2FD98F12157485A300B73B01 /* AVFoundation.framework */,
+				2FD98F0F1574803000B73B01 /* WaveView.h */,
+				2FD98F101574803000B73B01 /* WaveView.m */,
+				2FD98EF815747B2000B73B01 /* VoiceRecorderDemo */,
+				2FD98EF315747B2000B73B01 /* Frameworks */,
+				2FD98EF115747B2000B73B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FD98EF115747B2000B73B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FD98EF015747B2000B73B01 /* VoiceRecorderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FD98EF315747B2000B73B01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FF1D82C19CD17DA002492A3 /* QuartzCore.framework */,
+				2FD98EF415747B2000B73B01 /* UIKit.framework */,
+				2FD98EF615747B2000B73B01 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FD98EF815747B2000B73B01 /* VoiceRecorderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2FD98F0115747B2000B73B01 /* AppDelegate.h */,
+				2FD98F0215747B2000B73B01 /* AppDelegate.m */,
+				2FD98F0415747B2000B73B01 /* ViewController.h */,
+				2FD98F0515747B2000B73B01 /* ViewController.m */,
+				2FD98F0715747B2000B73B01 /* ViewController.xib */,
+				6413D98E1A775A2D007C5FFA /* Images.xcassets */,
+				2FD98EF915747B2000B73B01 /* Supporting Files */,
+			);
+			path = VoiceRecorderDemo;
+			sourceTree = "<group>";
+		};
+		2FD98EF915747B2000B73B01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FD98EFA15747B2000B73B01 /* VoiceRecorderDemo-Info.plist */,
+				2FD98EFB15747B2000B73B01 /* InfoPlist.strings */,
+				2FD98EFE15747B2000B73B01 /* main.m */,
+				2FD98F0015747B2000B73B01 /* VoiceRecorderDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FD98F16157493CD00B73B01 /* MP3 */ = {
+			isa = PBXGroup;
+			children = (
+				95C5B67F1B7F83B500EBC89D /* Titanium.mp3 */,
+			);
+			path = MP3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FD98EEF15747B2000B73B01 /* VoiceRecorderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD98F0C15747B2000B73B01 /* Build configuration list for PBXNativeTarget "VoiceRecorderDemo" */;
+			buildPhases = (
+				2FD98EEC15747B2000B73B01 /* Sources */,
+				2FD98EED15747B2000B73B01 /* Frameworks */,
+				2FD98EEE15747B2000B73B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceRecorderDemo;
+			productName = VoiceRecorderDemo;
+			productReference = 2FD98EF015747B2000B73B01 /* VoiceRecorderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FD98EE715747B2000B73B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "千锋3G www.mobiletrain.org";
+			};
+			buildConfigurationList = 2FD98EEA15747B2000B73B01 /* Build configuration list for PBXProject "VoiceRecorderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2FD98EE515747B2000B73B01;
+			productRefGroup = 2FD98EF115747B2000B73B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FD98EEF15747B2000B73B01 /* VoiceRecorderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FD98EEE15747B2000B73B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD98EFD15747B2000B73B01 /* InfoPlist.strings in Resources */,
+				6413D98F1A775A2D007C5FFA /* Images.xcassets in Resources */,
+				95C5B6801B7F83B500EBC89D /* Titanium.mp3 in Resources */,
+				2FD98F0915747B2000B73B01 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FD98EEC15747B2000B73B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD98EFF15747B2000B73B01 /* main.m in Sources */,
+				2FD98F0315747B2000B73B01 /* AppDelegate.m in Sources */,
+				2FD98F0615747B2000B73B01 /* ViewController.m in Sources */,
+				2FD98F111574803000B73B01 /* WaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FD98EFB15747B2000B73B01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD98EFC15747B2000B73B01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2FD98F0715747B2000B73B01 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD98F0815747B2000B73B01 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FD98F0A15747B2000B73B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FD98F0B15747B2000B73B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: 1000phone";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: 1000phone";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "D78B4F56-20A7-4937-9232-E23E04B8F9A2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D78B4F56-20A7-4937-9232-E23E04B8F9A2";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FD98F0D15747B2000B73B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceRecorderDemo/VoiceRecorderDemo-Prefix.pch";
+				INFOPLIST_FILE = "VoiceRecorderDemo/VoiceRecorderDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2FD98F0E15747B2000B73B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceRecorderDemo/VoiceRecorderDemo-Prefix.pch";
+				INFOPLIST_FILE = "VoiceRecorderDemo/VoiceRecorderDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FD98EEA15747B2000B73B01 /* Build configuration list for PBXProject "VoiceRecorderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD98F0A15747B2000B73B01 /* Debug */,
+				2FD98F0B15747B2000B73B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD98F0C15747B2000B73B01 /* Build configuration list for PBXNativeTarget "VoiceRecorderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD98F0D15747B2000B73B01 /* Debug */,
+				2FD98F0E15747B2000B73B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FD98EE715747B2000B73B01 /* Project object */;
+}
